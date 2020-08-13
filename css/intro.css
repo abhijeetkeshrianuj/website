@@ -16,6 +16,39 @@ html {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Display';
+    src: url('fonts/Bebas-Regular.eot');
+    src: url('fonts/Bebas-Regular.ttf') format('truetype'), 
+     url('fonts/Bebas-Regular.woff') format('woff'),
+     url('fonts/Bebas-Regular.eot?#iefix') format('embedded-opentype'),
+     url('fonts/Bebas-Regular.svg#pt_sansregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Serif';
+    font-weight: normal;
+    font-style: italic;
+    src: url('fonts/DEVROYSC.eot');
+    src: url('fonts/DEVROYSC.ttf') format('truetype'), 
+     url('fonts/DEVROYSC.woff') format('woff'),
+     url('fonts/DEVROYSC.eot?#iefix') format('embedded-opentype'),
+     url('fonts/DEVROYSC.svg#pt_sansregular') format('svg');
+}
+
+@font-face {
+    font-family: 'Serif';
+    font-weight: bold;
+    font-style: italic;
+    src: url('fonts/VesperLibre-Bold.eot');
+    src: url('fonts/VesperLibre-Bold.ttf') format('truetype'), 
+     url('fonts/VesperLibre-Bold.woff') format('woff'),
+     url('fonts/VesperLibre-Bold.eot?#iefix') format('embedded-opentype'),
+     url('fonts/VesperLibre-Bold.svg#pt_sansregular') format('svg');
+}
+
 body {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 13px;
@@ -49,7 +82,7 @@ body {
     float: right;
     padding: 20px 20px;
     background-color: rgb(141, 83, 83);
-    color: rgb(245, 245, 245);
+    color: rgb(255, 255, 255);
     margin-bottom: 50px;
     position: relative;
     top: -805px;
@@ -102,6 +135,7 @@ footer {
     padding-bottom: 20px;
     padding-top: 20px;
     color: rgba(160, 52, 52, 0.486);
+    font-family: "Display";
 }
 
 .site ul {
@@ -159,6 +193,7 @@ img {
 }
 
 table th {
+    font-family: "Serif";
     text-align: center;
     background-color: rgb(141, 83, 83);
     color: rgb(223, 217, 217);
