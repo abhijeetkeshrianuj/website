@@ -80,12 +80,19 @@ body {
     width: 40%;   
     float: right;
     padding: 20px 20px;
-    background-color: rgb(141, 83, 83);
     color: rgb(255, 255, 255);
     margin-bottom: 50px;
     position: relative;
     top: -805px;
     left: -140px;
+    background-color: rgb(121, 58, 58);
+    
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(121, 58, 58)), to(rgb(199, 197, 197)));
+    background-image: -webkit-linear-gradient(top, rgb(121, 58, 58), rgb(199, 197, 197));
+    background-image: -moz-linear-gradient(top, rgb(121, 58, 58), rgb(199, 197, 197));
+    background-image: -ms-linear-gradient(top, rgb(121, 58, 58), rgb(199, 197, 197));
+    background-image: -o-linear-gradient(top, rgb(121, 58, 58), rgb(199, 197, 197));
+    background-image: linear-gradient(to top right, rgb(121, 58, 58), rgb(199, 197, 197));
 }
 
 .sidebar {
