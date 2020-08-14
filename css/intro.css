@@ -59,7 +59,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
-    background: url(../images/color-tile.png) left bottom repeat-x, rgb(199, 166, 105) url(../images/color-tile.png) left top repeat-x;
+    background: url(../images/color-tile.png) left bottom repeat-x, rgb(201, 168, 106) url(../images/color-tile.png) left top repeat-x;
     box-sizing:border-box;
 } 
 
